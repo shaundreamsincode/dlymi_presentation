@@ -1,0 +1,27 @@
+/* Design tokens. Components must use these, never raw values. */
+:root {
+  --color-surface: #ffffff;
+  --color-page: #f4f4f2;
+  --color-ink: #1a1a1a;
+  --color-muted: #666666;
+  --color-accent: #dc5041;
+  --color-on-accent: #ffffff;
+  --color-border: #e2e2df;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+
+  --font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size-sm: 13px;
+  --font-size-md: 15px;
+  --font-size-lg: 20px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Claude practice components</title>
+    <link rel="stylesheet" href="tokens.css" />
+    <!-- Component styles: add one line per component -->
+    <link rel="stylesheet" href="components/badge.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: var(--space-6);
+        background: var(--color-page);
+        color: var(--color-ink);
+        font-family: var(--font-family);
+      }
+      h1 { font-size: var(--font-size-lg); }
+      .example { margin-top: var(--space-6); }
+      .example h2 { font-size: var(--font-size-md); color: var(--color-muted); }
+      .example__stage {
+        padding: var(--space-6);
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: var(--radius-md);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Claude practice components</h1>
+    <p>Open this file in a browser to see every component.</p>
+    <div id="gallery"></div>
+
+    <!-- Component scripts: add one line per component, above gallery.js -->
+    <script src="components/badge.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>

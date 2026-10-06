@@ -1,0 +1,9 @@
+{
+  "name": "claude-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny practice repo for the Figma to Claude Code to GitHub loop. No dependencies to install.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
